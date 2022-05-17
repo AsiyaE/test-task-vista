@@ -1,0 +1,22 @@
+{
+  "name": "test_vista",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsiyaE/test-task-vista.git"
+  },
+  "keywords": [
+    "hospital"
+  ],
+  "author": "Asiya E.",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AsiyaE/test-task-vista/issues"
+  },
+  "homepage": "https://github.com/AsiyaE/test-task-vista#readme"
+}

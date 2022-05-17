@@ -1,0 +1,99 @@
+html{
+  --main-color:#3398cc;
+  --backg-color:#f0efe9;
+  --header-color:#f7f6f0;
+  --hr-text-color:#a8a8a8;
+}
+
+body{
+  margin:0;
+  font-family: system-ui;
+  min-width: 720px;
+
+}
+ul {
+  list-style: none;
+  padding:0;
+}
+li{
+  margin-top:0.5rem;
+}
+input{
+  outline:none;
+  border:none;
+  border-bottom:1px solid var(--hr-text-color);
+}
+
+.container{
+  width: 100%;
+  min-height: 100vh;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: var(--backg-color);
+  display:flex;
+  gap:1rem;
+}
+.header1{
+  padding:1rem;
+  background-color: var(--main-color);
+  color: white;
+}
+
+.header1, .header2{
+  /* min-height:3rem; */
+  box-sizing: border-box;
+}
+
+.header2{
+  background-color: var(--header-color);
+}
+
+.patient-info, .users-list{
+  width:50%;    
+  background-color: white;
+  box-sizing: border-box;
+;}
+.patient-info{
+  outline:2px solid var(--main-color);
+}
+.users-list{
+  outline:2px solid var(--hr-text-color);
+}
+.routebtn{
+  text-transform: uppercase;
+  background-color: transparent;
+  min-height: 3rem;
+  outline:none;
+  border:none;
+  padding:0.5rem 1rem
+}
+.routebtn.active{
+  border-bottom: 4px solid var(--main-color);
+  color:var(--main-color);
+}
+
+table{
+  width:100%;
+  border-collapse: collapse;
+  border: 1pt solid var(--hr-text-color);}
+thead{
+  text-align: left;
+  color:var(--hr-text-color);
+}
+
+tbody tr:hover, tr.selected{
+  border-left: 4px solid var(--main-color);
+}
+td{
+  border:none;
+  border-bottom:1pt solid var(--hr-text-color);
+  padding: 0.2rem 0.3rem;
+}
+tr.selected, tr:hover td {
+  background-color:var(--backg-color);
+
+}
+th{
+  width:30%;
+  font-weight: normal;
+}

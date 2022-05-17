@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Список пациентов</title>
+    <link rel="stylesheet" href="style.css?">
+   
+    </style>
+</head>
+<body>     
+  <div class="container">
+    <div class="patient-info">
+      <div class="header1">
+        <span>Информация о пациенте</span>
+      </div>
+      <ul>
+        <li><span> ФИО</span>
+          <input type="text" name="fio">
+        </li>
+        <li>
+          <span> Возраст</span>
+          <input type="text" name="age">
+        </li>
+        <li>
+          <span> Диагноз</span>
+          <input type="text" name="diagnosis">
+        </li>
+      </ul>
+    </div>
+    <div class="users-list">
+      <div class="header2">
+        <button class="routebtn active" data-route="presentList">Присутствуют(<span>0</span>)</button>
+        <button class="routebtn" data-route="quittingList">Выбывшие(<span>0</span>)</button>
+      </div>
+      
+      <table>
+        <thead>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </div> 
+  <script src="script.js"></script>        
+            
+</body>
+</html>

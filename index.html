@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Список пациентов</title>
+    <link rel="stylesheet" href="style.css?">
+    </style>
+</head>
+<body>     
+  <div class="container">
+    <div class="patient-info">
+      <div class="header1">
+        <span>Информация о пациенте</span>
+      </div>
+      <ul>
+        <li><span> ФИО</span>
+          <input type="text" name="fio">
+        </li>
+        <li>
+          <span> Возраст</span>
+          <input type="text" name="age">
+        </li>
+        <li>
+          <span> Диагноз</span>
+          <input type="text" name="diagnosis">
+        </li>
+      </ul>
+    </div>
+    <div class="users-list">
+      <div class="header2">
+        <button class="routebtn active" data-route="present">Присутствуют(<span>0</span>)</button>
+        <button class="routebtn" data-route="quitting">Выбывшие(<span>0</span>)</button>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">№ ИБ</th>
+            <th scope="col">ФИО</th>
+            <th scope="col">Палата</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>jtrescgb mgvnyjve jfzirkwh</td>
+            <td>119</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div> 
+  <script src="script.js"></script>        
+            
+</body>
+</html>
