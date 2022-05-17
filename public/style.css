@@ -40,7 +40,6 @@ input{
 }
 
 .header1, .header2{
-  /* min-height:3rem; */
   box-sizing: border-box;
 }
 
@@ -65,7 +64,8 @@ input{
   min-height: 3rem;
   outline:none;
   border:none;
-  padding:0.5rem 1rem
+  padding:0.5rem 1rem;
+  cursor: pointer;
 }
 .routebtn.active{
   border-bottom: 4px solid var(--main-color);
@@ -91,9 +91,9 @@ td{
 }
 tr.selected, tr:hover td {
   background-color:var(--backg-color);
-
 }
 th{
   width:30%;
   font-weight: normal;
+  cursor: pointer;
 }

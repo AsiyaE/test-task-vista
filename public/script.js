@@ -51,7 +51,7 @@ function init(){
 			.then(status)
 			.then(json)
 			.then(function (data) {
-			  console.log('data', data);
+
 			  getList(data,route);
 			})
 			.catch(function (error) {
